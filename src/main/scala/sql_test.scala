@@ -67,7 +67,7 @@ object SQLTest extends App with Logging {
     .option("sep", "#")
     .option("encoding", "UTF-8")
     .mode("overwrite")
-    .option("nullValue", "")
+    .option("nullValue", null)
     .csv("./data/results/output.txt")
 
 }
